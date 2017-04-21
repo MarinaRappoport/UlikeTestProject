@@ -14,19 +14,6 @@ public class Action {
         ANIMATION, TOAST, CALL, NOTIFICATION;
     }
 
-//    public enum ActionType{
-//        ANIMATION("animation"), TOAST("toast"), CALL("call"), NOTIFICATION("notification");
-//        private String type;
-//
-//        ActionType(String type) {
-//            this.type = type;
-//        }
-//
-//        public String getValue() {
-//            return type;
-//        }
-//    }
-
     private ActionType type;
     private boolean enabled;
     private int priority;
